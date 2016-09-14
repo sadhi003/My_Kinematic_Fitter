@@ -1,0 +1,3 @@
+In you make file, to link things together you can do something like,
+
+GLIBS = $(ROOTGLIBS) -L/usr/local/lib/ $(SYSLIBS) ccylinder.o intersept.o targcell.o stcounter.o -lgfortran
