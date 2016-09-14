@@ -49,7 +49,7 @@ void KinFitTest::Loop()
    string _exp = "g12";
 
    //Booleans for kinFit
-   bool multi = true; 
+   bool multi = false; 
    bool mc = false;
 
    //Number of particles for kinFit
